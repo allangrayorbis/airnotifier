@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.8.9
 ENV LANG C.UTF-8
 ENV LC_ALL C.UTF-8
 ENV DEBIAN_FRONTEND=noninteractive TERM=linux
@@ -10,7 +10,7 @@ RUN apt-get update && \
 
 RUN pip3 install pipenv
 
-RUN git clone -b 2.x https://github.com/airnotifier/airnotifier.git /airnotifier
+COPY . /airnotifier
 RUN mkdir -p /var/airnotifier/pemdir && \
     mkdir -p /var/log/airnotifier
 

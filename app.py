@@ -49,7 +49,7 @@ define("https", default=False, help="Enable HTTPS")
 define("httpscertfile", default="", help="HTTPS cert file")
 define("httpskeyfile", default="", help="HTTPS key file")
 define("masterdb", default="airnotifier", help="MongoDB DB to store information")
-define("mongouri", default="mongodb://localhost:27017/", help="MongoDB host name")
+define("mongouri", default="mongodb://mongodb:27017/", help="MongoDB host name")
 define(
     "passwordsalt", default="d2o0n1g2s0h3e1n1g", help="Being used to make password hash"
 )

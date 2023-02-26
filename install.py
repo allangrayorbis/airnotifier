@@ -41,7 +41,7 @@ EMAIL = "admin@airnotifier"
 DEFAULTPASSWORD = "admin"
 
 define("masterdb", default="airnotifier", help="MongoDB DB to store information")
-define("mongouri", default="mongodb://localhost:27017/", help="MongoDB host name")
+define("mongouri", default="mongodb://mongodb:27017/", help="MongoDB host name")
 EMAIL = "admin@airnotifier"
 DEFAULTPASSWORD = "admin"
 

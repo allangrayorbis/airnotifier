@@ -4,8 +4,8 @@
 
 port = 8801
 
-# mongouri = 'mongodb://root:pass@localhost:27017/'
-mongouri = "mongodb://localhost:27017/"
+# mongouri = 'mongodb://root:pass@mongodb:27017/'
+mongouri = "mongodb://mongodb:27017/"
 
 passwordsalt = 'd2o0n1g2s0h3e1n1g'
 cookiesecret = 'airnotifiercookiesecret'
